@@ -155,8 +155,8 @@ svg{
     text-transform: capitalize;
 }
 .navbar-brand img{
-    width: 300px;
-    height: 105px;
+    width: 500px;
+    height: 400px;
     margin-left: -20px;
 }
 .navbar .nav-item{
