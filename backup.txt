@@ -1,0 +1,26 @@
+<section class="about section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-5 d-flex align-items-center justify-content-center">
+                        <div class="about-img">
+                            <img src="assets/img/img-juber.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md7">
+                        <div class="section-title">
+                            <h2><span>Permasa</span> Jum'at<span> Berkah</span></h2>
+                        </div>
+                        <div class="about-text">
+                            <p>Permasa Jumat berkah adalah salah satu Program Kerja Permasa Ngawi dalam kontribusinya
+                            di lingkup masyarakat. Tujuannya adalah saling berbagi kebermanfaatan sesama manusia. Sumber
+                            Dana Program ini berasal dari hasil Donasi. Permasa dalam melaksanakan program ini bekerja sama
+                            dengan organisasi Jumat Berkah Ngawi. Kami membuka bagi siapa saja yang ingin ber Donasi
+                            untuk ikut berpartisipasi di Program Jumat Berkah ini. </p>
+                            <div class="about-btn">
+                                <a href="#" class="btn btn-1">Donasi Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
