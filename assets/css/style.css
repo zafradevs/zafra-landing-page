@@ -1,6 +1,7 @@
 /*----Font Style*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,700;0,900;1,300&display=swap');
 
 /*----Global CSS----*/
 :root{
@@ -11,7 +12,7 @@
     --bg-dark: #2b2c2f;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -20,7 +21,7 @@ body{
     padding: 0;
     margin: 0;
     outline: none!important;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 ul{
     list-style: none;
@@ -53,7 +54,7 @@ img{
 .home-btn .btn-2{
     background-color:#2564c2;
     padding: 7px 25px;
-    border-width:  5px;
+    border-width:  1px;
     border-color: #ffffff;
     border-radius: 30px;
     color:#ffffff;
@@ -137,10 +138,11 @@ svg{
 /*----Navbar Section-----*/
 .navbar{
     background-color: transparent;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .sticky{
-    background-color: var(--main-color);
+    background-color: #2564c2be;
+    box-shadow: var(--shadow-black-200);
 }
 
 .navbar > .container{
@@ -192,11 +194,18 @@ svg{
 
 /*--Home Section--*/
 
+#particles-js{
+  z-index: 1;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
 .home{
     min-height: 100vh;
     padding: 100px 0;
     background-color: var(--main-color);
 }
+
 .home-text h1{
     font-size: 45px;
     font-weight: 700;
@@ -485,6 +494,13 @@ svg{
 /*Benefit Section*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+.h100{
+  height: 600px;
+}
+
+.content-2-3{
+  height: auto;
+}
 .content-2-3 .btn:focus,
 .content-2-3 .btn:active {
   outline: none !important;
@@ -529,6 +545,7 @@ svg{
   background-color: #292952;
   border-radius: 0.75rem;
   border: 1px solid #4c4c6d;
+  margin-bottom: 50px;
 }
 
 .content-2-3 .card-block {
@@ -653,7 +670,7 @@ svg{
 /*Sering Ditanyakan*/
 
 .about-permasa{
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 80px;
 }
 .about-permasa .container{
@@ -682,16 +699,16 @@ svg{
 
 .about-kabinet{
     margin-bottom: 100px;
-    margin-top: 3rem;
+    margin-top: 200px;
 }
 .about-kabinet .accordion-item:not(:last-child){
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .about-kabinet .accordion-header{
     box-shadow: var(--shadow-black-100);
-    padding: 10px 20px;
+    padding: 20px 30px;
     transition: all 0.3s ease;
-    border-radius: 1px;
+    border-radius: 5px;
     position: relative;
 }
 
@@ -732,9 +749,10 @@ svg{
     color: white;
 }
 .about-kabinet .accordion-body{
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(235, 235, 235);
-    border-radius: 1px;
+    border-radius: 5px;
+    margin-bottom: 40px;
 }
 .about-kabinet .accordion-body p {
     font-weight: 300;
@@ -742,7 +760,10 @@ svg{
     color: var(--bg-dark);
     line-height: 24px;
     margin: 0px;
+}
 
+.about-kabinet .accordion-item{
+  border-radius: 10px;
 }
 
 
