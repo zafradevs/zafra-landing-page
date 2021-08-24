@@ -441,20 +441,6 @@ svg{
         color: #ffffff;
       }
 
-      .content-3-7 .btn-fill {
-        background-color: #2564c2;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        font-weight: 500;
-        letter-spacing: 0.025em;
-        border-radius: 0.5rem;
-      }
-
-      .content-3-7 .btn-fill:hover {
-        background-color: #ffffff;
-        color: #2564c2;
-      }
-
       @media (min-width: 576px) {
         .content-3-7 .title-text {
           font: 800 2.25rem/2.5rem Poppins, sans-serif;
