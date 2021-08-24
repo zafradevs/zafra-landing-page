@@ -132,9 +132,6 @@ svg{
     background-color: var(--main-color);
 }
 
-
-
-
 /*----Navbar Section-----*/
 .navbar{
     background-color: transparent;
@@ -765,37 +762,6 @@ svg{
 .about-kabinet .accordion-item{
   border-radius: 10px;
 }
-
-
-/*--Member Section
-.member{
-    background-color: #ffffff;
-}
-.member-item{
-    margin: 10px 5px;
-    padding: 0px;
-    border-radius: 5px;
-    box-shadow: var(--shadow-black-200);
-}
-.member-item h3{
-    padding: 0 0 0 10px ;
-    font-size: 16px;
-    color: #161616;
-    font-weight: 500;
-    margin: 10px 0 5px;
-    text-transform: capitalize;
-}
-.member-item span{
-    padding: 0px 0px 10px 10px;
-    display: block;
-    font-size: 14px;
-    font-weight: 400;
-    color: #2b2c2f;
-}
-.member-btn .btn-1{
-    margin-left: 41%;
-} --*/
-
 
 /* Footer Section */
 .wave-footer{
