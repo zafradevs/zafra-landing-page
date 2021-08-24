@@ -575,8 +575,9 @@ svg{
 }
 
 .content-2-3 .btn-card:hover {
-  background-color: #ffffff;
-  color: #2564c2;
+  --tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .content-2-3 .btn-outline {
