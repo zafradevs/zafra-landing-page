@@ -249,6 +249,7 @@ svg{
 }
 
 /*--Why Section--*/
+/*--
 .content-3-3 .btn:focus,
 .content-3-3 .btn:active {
   outline: none !important;
@@ -333,7 +334,7 @@ svg{
     margin-right: 1.25rem;
     margin-bottom: 0;
   }
-}
+} --*/
 
 /*--Pricing Section--*/
 .content-3-7 .btn:focus,
