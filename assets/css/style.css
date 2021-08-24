@@ -442,7 +442,7 @@ svg{
       }
 
       .content-3-7 .btn-fill {
-        background-imagezaky initial: #2564c2;
+        background-color: #2564c2;
         padding-top: 1rem;
         padding-bottom: 1rem;
         font-weight: 500;
@@ -451,7 +451,7 @@ svg{
       }
 
       .content-3-7 .btn-fill:hover {
-        background-imager: #ffffff;
+        background-color: #ffffff;
         color: #2564c2;
       }
 
